@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Opt out of browser/OS forced dark-mode so the light notebook theme always renders as designed -->
+  <meta name="color-scheme" content="light" />
   <title>Monish Solanki — AI Builder & Backend Engineer</title>
   <meta name="description" content="Monish Solanki — AI Builder & Backend Engineer. I build LLM-powered products and backend systems that ship to real users." />
 
@@ -12,6 +14,7 @@
 
   <style>
     :root {
+      color-scheme: only light;   /* prevents forced dark-mode inversion */
       --bg:        #fffbf5;
       --bg-warm:   #f5ece3;
       --bg-cream:  #f2e3cf;
