@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Vercel
+.vercel
+
+# Logs / deps (not needed for this static site, but safe defaults)
+node_modules/
+*.log
+
+# Source assets not meant for the site
+monish_resume-21.pdf
