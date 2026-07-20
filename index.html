@@ -42,9 +42,9 @@
       --maxw: 1080px;
       --spring: cubic-bezier(.16,1,.3,1);
 
-      --grid-fine:  rgba(120, 88, 45, .07);
-      --grid-bold:  rgba(120, 88, 45, .12);
-      --grid-size:  30px;
+      --grid-fine:  rgba(90, 110, 140, .045);
+      --grid-bold:  rgba(90, 110, 140, .075);
+      --grid-size:  32px;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -76,7 +76,7 @@
     }
     body::after {
       content: ""; position: fixed; inset: 0; z-index: -2; pointer-events: none;
-      background: radial-gradient(120% 90% at 50% 15%, transparent 52%, rgba(242,227,207,.6) 100%);
+      background: radial-gradient(120% 90% at 50% 15%, transparent 62%, rgba(230,224,214,.32) 100%);
     }
     @keyframes gridDrift { to { background-position:
         var(--grid-size) var(--grid-size), var(--grid-size) var(--grid-size),
